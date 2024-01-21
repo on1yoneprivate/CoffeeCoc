@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--쉬운 배치를 위해 RelativeLayout 사용-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#FFF3E6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <!-- 검색창 버튼-->
+    <android.widget.Button
+        android:id="@+id/search"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center_vertical"
+        android:layout_marginLeft="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_radius"
+        android:backgroundTint="#4D372C22"
+        android:drawableLeft="@drawable/search"
+        android:drawablePadding="6dp"
+        android:gravity="left|center_vertical"
+        android:padding="18dp"
+        android:hint="카페 메뉴를 검색하세요."
+
+        android:privateImeOptions="defaultInputmode=korean"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <!-- 여섯 개의 카테고리를 비슷한 계열끼리 둘씩 묶기 위해 RelativeLayout을 사용한다. -->
+    <RelativeLayout
+        android:id="@+id/rectangle1"
+        android:layout_width="280dp"
+        android:layout_height="140dp"
+        android:layout_below="@id/search"
+        android:background="#4D372C22"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+
+        <!--커피 아이콘 이미지-->
+        <ImageView
+            android:id="@+id/menu1"
+            android:layout_width="98dp"
+            android:layout_height="120dp"
+            android:src="@drawable/coffee"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp" />
+
+        <!--카테고리 커피 버튼-->
+        <android.widget.Button
+            android:id="@+id/btn_coffee"
+            android:text="@string/txt_coffee"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/menu1"
+            android:background="@drawable/button_radius"
+            android:drawableLeft="@drawable/menu_icon"
+            android:paddingLeft="10dp" />
+
+        <!--카테고리 디카페인 버튼-->
+        <android.widget.Button
+            android:id="@+id/btn_decaf"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_below="@id/btn_coffee"
+            android:textSize="16dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/menu1"
+            android:background="@drawable/button_radius"
+            android:drawableLeft="@drawable/menu_icon"
+            android:paddingLeft="10dp"
+            android:text="@string/txt_decaf"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rectangle2"
+        android:layout_width="280dp"
+        android:layout_height="140dp"
+        android:layout_below="@id/rectangle1"
+        android:background="#4D372C22"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/menu2"
+            android:layout_width="98dp"
+            android:layout_height="120dp"
+            android:src="@drawable/coffee"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp" />
+
+        <!--카테고리 논커피 버튼-->
+        <android.widget.Button
+            android:id="@+id/btn_non"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/menu2"
+            android:textSize="16dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/button_radius"
+            android:drawableLeft="@drawable/menu_icon"
+            android:paddingLeft="10dp"
+            android:text="@string/txt_non"
+            android:textColor="@color/white"/>
+
+        <!--카테고리 프라페 버튼-->
+        <android.widget.Button
+            android:id="@+id/btn_frappe"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_below="@id/btn_non"
+            android:textSize="16dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/menu2"
+            android:background="@drawable/button_radius"
+            android:drawableLeft="@drawable/menu_icon"
+            android:paddingLeft="10dp"
+            android:text="@string/txt_frappe"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rectangle3"
+        android:layout_width="280dp"
+        android:layout_height="140dp"
+        android:layout_below="@id/rectangle2"
+        android:background="#4D372C22"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/menu3"
+            android:layout_width="98dp"
+            android:layout_height="120dp"
+            android:src="@drawable/coffee"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp" />
+
+        <!--카테고리 티 버튼-->
+        <android.widget.Button
+            android:id="@+id/btn_tea"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/menu3"
+            android:textSize="16dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/button_radius"
+            android:drawableLeft="@drawable/menu_icon"
+            android:paddingLeft="10dp"
+            android:text="@string/txt_tea"
+            android:textColor="@color/white"/>
+
+        <!--카테고리 에이드 버튼-->
+        <android.widget.Button
+            android:id="@+id/btn_ade"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_below="@id/btn_tea"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/menu3"
+            android:textSize="16dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/button_radius"
+            android:drawableLeft="@drawable/menu_icon"
+            android:paddingLeft="10dp"
+            android:text="@string/txt_ade"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+    <!--최하단 바-->
+    <RelativeLayout
+        android:id="@+id/bottom_nav"
+        android:layout_width="480dp"
+        android:layout_height="76dp"
+        android:background="#834D1E"
+        android:layout_alignParentBottom="true">
+
+        <!--하단 메뉴 버튼 (좌측)-->
+        <ImageButton
+            android:id="@+id/nav_menu"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="7dp"
+            android:background="#834D1E"
+            android:src="@drawable/bottom_menu"
+            android:text="menu"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:gravity="center" />
+
+        <!--하단 맵 버튼 (중앙)-->
+        <ImageButton
+            android:id="@+id/nav_map"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitCenter"
+            android:layout_toRightOf="@id/nav_menu"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/bottom_map"
+            android:background="#834D1E"
+            android:text="Map"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:onClick="onMapButtonClick"/>
+
+        <!--하단 선호 버튼 (우측)-->
+        <ImageButton
+            android:id="@+id/nav_like"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/bottom_like"
+            android:background="#834D1E"
+            android:layout_toRightOf="@id/nav_map"
+            android:text="like"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:gravity="center" />
+    </RelativeLayout>
+</RelativeLayout>

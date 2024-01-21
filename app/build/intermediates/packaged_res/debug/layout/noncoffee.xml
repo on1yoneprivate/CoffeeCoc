@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ivory"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Non-Coffee"
+            android:textColor="@color/brown"
+            android:textSize="50dp"
+            android:textStyle="italic"
+            android:typeface="serif" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/toolbar1"
+        android:layout_above="@id/bottom_nav">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="110dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="딸기 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="고구마 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="곡물 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="초코 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="토피넛 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="오레오 초코 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="흑당 버블밀크티 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="핫초코"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="녹차 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="밀크티 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="흑당 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="흑당 밀크티 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="흑당 버블 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="아이스 초코"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="딸기 콜드폼 초콜릿"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="플러피 판다 아이스 초콜릿"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="플러피 판다 핫 초콜릿"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="스타벅스 슬래머"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="스팀 우유"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="우유"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="달고나 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="밀크티"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="아몬드 밀크티"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="블루베리 요거트 드링크"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="플레인 요거트 드링크"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="쑥 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="소프트 아이스크림 (컵/콘)"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="버블 크림 밀크티"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="민트 초콜릿"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="이곡 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="쿠키초코라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="민트초코오레오라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="흑당밀크"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="블루베리 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="망고 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="딥초코버블라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="화이트 초코"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/bottom_nav"
+        android:layout_width="480dp"
+        android:layout_height="76dp"
+        android:background="#834D1E"
+        android:layout_alignParentBottom="true">
+
+        <ImageButton
+            android:id="@+id/nav_menu"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="45dp"
+            android:background="#834D1E"
+            android:src="@drawable/bottom_menu"
+            android:text="menu"
+            android:padding="8dp"
+            android:textSize="14dp"
+            android:gravity="center" />
+
+        <ImageButton
+            android:id="@+id/nav_map"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitCenter"
+            android:layout_toRightOf="@id/nav_menu"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/bottom_map"
+            android:background="#834D1E"
+            android:text="Map"
+            android:padding="8dp"
+            android:textSize="14dp"
+            android:gravity="center" />
+
+        <ImageButton
+            android:id="@+id/nav_like"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/bottom_like"
+            android:background="#834D1E"
+            android:layout_toRightOf="@id/nav_map"
+            android:text="like"
+            android:padding="8dp"
+            android:textSize="14dp"
+            android:gravity="center" />
+    </RelativeLayout>
+
+</RelativeLayout>

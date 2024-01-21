@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_coffee">Coffee</string>
+    <string name="txt_decaf">Decaf</string>
+    <string name="txt_non">Non-Coffee</string>
+    <string name="txt_smoothie">Smoothie</string>
+    <string name="txt_frappe">Frappe</string>
+    <string name="txt_tea">Tea</string>
+    <string name="txt_ade">Ade</string>
+</resources>

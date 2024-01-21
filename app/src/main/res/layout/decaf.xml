@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ivory"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Decaf"
+            android:textColor="@color/brown"
+            android:textSize="50dp"
+            android:textStyle="italic"
+            android:typeface="serif" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/toolbar1"
+        android:layout_above="@id/bottom_nav">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="110dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 에스프레소"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 아포카토"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="에스프레소 피에노"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 아메리카노"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 꿀아메리카노"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 카페 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 카푸치노"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 바닐라 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 헤이즐넛 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 카라멜마끼아또"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 연유라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 카페 모카"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 티라미수 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 헤이즐넛 아메리카노"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 바닐라 아메리카노"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 콜드브루"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 콜드브루 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 꿀 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 아몬드 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 바나나 달달 커피"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 아인슈페너"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 돌체 콜드브루 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 달고나 콜드브루 라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 콜드브루 화이트 비엔나"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 콜드부르 니트로"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 흑당 콜드브루"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 연유 콜드브루"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 콜드브루 크림넛"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 버블 흑당 콜드브루"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 더치커피"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 더치라떼"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 오트 콜드브루 플로트"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 콜드브루 화이트 비엔나"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_round"
+                android:drawableLeft="@drawable/coffee_1"
+                android:paddingLeft="20dp"
+                android:text="디카페인 콜드부르 니트로"
+                android:textColor="@color/white"
+                android:typeface="sans" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/bottom_nav"
+        android:layout_width="480dp"
+        android:layout_height="76dp"
+        android:background="#834D1E"
+        android:layout_alignParentBottom="true">
+
+        <ImageButton
+            android:id="@+id/nav_menu"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="45dp"
+            android:background="#834D1E"
+            android:src="@drawable/bottom_menu"
+            android:text="menu"
+            android:padding="8dp"
+            android:textSize="14dp"
+            android:gravity="center" />
+
+        <ImageButton
+            android:id="@+id/nav_map"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitCenter"
+            android:layout_toRightOf="@id/nav_menu"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/bottom_map"
+            android:background="#834D1E"
+            android:text="Map"
+            android:padding="8dp"
+            android:textSize="14dp"
+            android:gravity="center" />
+
+        <ImageButton
+            android:id="@+id/nav_like"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/bottom_like"
+            android:background="#834D1E"
+            android:layout_toRightOf="@id/nav_map"
+            android:text="like"
+            android:padding="8dp"
+            android:textSize="14dp"
+            android:gravity="center" />
+    </RelativeLayout>
+
+</RelativeLayout>

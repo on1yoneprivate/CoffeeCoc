@@ -1,0 +1,382 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:5:5-79
+11-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:6:5-81
+12-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:7:5-66
+13-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:10:5-80
+14-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:10:22-77
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:5:5-79
+15-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:5:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:6:5-81
+16-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:6:22-78
+17
+18    <!-- Include required permissions for Google Maps API to run. -->
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.android.gms:play-services-maps:18.2.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/60d4cc0051c7306c0d35a7ca2f72833a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+19-->[com.google.android.gms:play-services-maps:18.2.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/60d4cc0051c7306c0d35a7ca2f72833a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:22-76
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:18.2.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/60d4cc0051c7306c0d35a7ca2f72833a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:18.2.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/60d4cc0051c7306c0d35a7ca2f72833a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:18.2.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/60d4cc0051c7306c0d35a7ca2f72833a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+24
+25    <queries>
+25-->[com.google.android.gms:play-services-maps:18.2.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/60d4cc0051c7306c0d35a7ca2f72833a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+26
+27        <!-- Needs to be explicitly declared on Android R+ -->
+28        <package android:name="com.google.android.apps.maps" />
+28-->[com.google.android.gms:play-services-maps:18.2.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/60d4cc0051c7306c0d35a7ca2f72833a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+28-->[com.google.android.gms:play-services-maps:18.2.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/60d4cc0051c7306c0d35a7ca2f72833a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+29    </queries>
+30
+31    <uses-feature
+31-->[com.naver.maps:map-sdk:3.14.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/07324a1311c7ddd73c847b1e0426d475/transformed/jetified-map-sdk-3.14.1/AndroidManifest.xml:12:5-14:36
+32        android:name="android.hardware.wifi"
+32-->[com.naver.maps:map-sdk:3.14.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/07324a1311c7ddd73c847b1e0426d475/transformed/jetified-map-sdk-3.14.1/AndroidManifest.xml:13:9-45
+33        android:required="false" />
+33-->[com.naver.maps:map-sdk:3.14.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/07324a1311c7ddd73c847b1e0426d475/transformed/jetified-map-sdk-3.14.1/AndroidManifest.xml:14:9-33
+34
+35    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+35-->[com.naver.maps:map-sdk:3.14.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/07324a1311c7ddd73c847b1e0426d475/transformed/jetified-map-sdk-3.14.1/AndroidManifest.xml:18:5-76
+35-->[com.naver.maps:map-sdk:3.14.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/07324a1311c7ddd73c847b1e0426d475/transformed/jetified-map-sdk-3.14.1/AndroidManifest.xml:18:22-73
+36
+37    <permission
+37-->[androidx.core:core:1.9.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/54d2751d2b9e48bb8e0175fa03bfc140/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+38        android:name="com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+38-->[androidx.core:core:1.9.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/54d2751d2b9e48bb8e0175fa03bfc140/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+39        android:protectionLevel="signature" />
+39-->[androidx.core:core:1.9.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/54d2751d2b9e48bb8e0175fa03bfc140/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+40
+41    <uses-permission android:name="com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+41-->[androidx.core:core:1.9.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/54d2751d2b9e48bb8e0175fa03bfc140/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+41-->[androidx.core:core:1.9.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/54d2751d2b9e48bb8e0175fa03bfc140/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+42
+43    <application
+43-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:15:5-83:19
+44        android:allowBackup="true"
+44-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:20:9-35
+45        android:appComponentFactory="whateverString"
+45-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:18:9-53
+46        android:dataExtractionRules="@xml/data_extraction_rules"
+46-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:21:9-65
+47        android:debuggable="true"
+48        android:extractNativeLibs="false"
+49        android:fullBackupContent="@xml/backup_rules"
+49-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:22:9-54
+50        android:icon="@mipmap/ic_launcher"
+50-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:23:9-43
+51        android:label="CoffeeCoC"
+51-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:24:9-34
+52        android:roundIcon="@mipmap/ic_launcher_round"
+52-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:25:9-54
+53        android:supportsRtl="true"
+53-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:26:9-35
+54        android:testOnly="true"
+55        android:theme="@style/Theme.MyApplication" >
+55-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:27:9-51
+56        <activity
+56-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:29:9-35:20
+57            android:name="com.example.myapplication.MainActivity"
+57-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:30:13-41
+58            android:exported="true"
+58-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:31:13-36
+59            android:label="@string/app_name"
+59-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:32:13-45
+60            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+60-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:33:13-69
+61        </activity>
+62        <activity
+62-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:38:9-49:20
+63            android:name="com.example.myapplication.SplashActivity"
+63-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:39:13-43
+64            android:exported="true"
+64-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:40:13-36
+65            android:theme="@style/Theme.MyApplication" >
+65-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:41:13-55
+66            <intent-filter>
+66-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:43:13-47:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:44:17-69
+67-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:44:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:46:17-77
+69-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:46:27-74
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:51:9-53:15
+73            android:name="com.example.myapplication.MapActivity"
+73-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:51:19-46
+74            android:theme="@style/Theme.MyApplication" />
+74-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:52:13-55
+75        <activity
+75-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:55:9-76
+76            android:name="com.example.myapplication.CoffeeActivity"
+76-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:55:19-49
+77            android:exported="true" />
+77-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:55:51-74
+78        <activity
+78-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:56:9-75
+79            android:name="com.example.myapplication.DecafActivity"
+79-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:56:19-48
+80            android:exported="true" />
+80-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:56:50-73
+81        <activity
+81-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:57:9-79
+82            android:name="com.example.myapplication.NoncoffeeActivity"
+82-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:57:19-52
+83            android:exported="true" />
+83-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:57:54-77
+84        <activity
+84-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:58:9-76
+85            android:name="com.example.myapplication.FrappeActivity"
+85-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:58:19-49
+86            android:exported="true" />
+86-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:58:51-74
+87        <activity
+87-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:59:9-73
+88            android:name="com.example.myapplication.TeaActivity"
+88-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:59:19-46
+89            android:exported="true" />
+89-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:59:48-71
+90        <activity
+90-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:60:9-73
+91            android:name="com.example.myapplication.AdeActivity"
+91-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:60:19-46
+92            android:exported="true" />
+92-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:60:48-71
+93        <activity
+93-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:61:9-76
+94            android:name="com.example.myapplication.SearchActivity"
+94-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:61:19-49
+95            android:exported="true" />
+95-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:61:51-74
+96        <activity
+96-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:62:9-80
+97            android:name="com.example.myapplication.WebComposeActivity"
+97-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:62:19-53
+98            android:exported="true" />
+98-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:62:55-78
+99        <activity
+99-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:63:9-78
+100            android:name="com.example.myapplication.WebEdiyaActivity"
+100-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:63:19-51
+101            android:exported="true" />
+101-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:63:53-76
+102        <activity
+102-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:64:9-77
+103            android:name="com.example.myapplication.WebGateActivity"
+103-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:64:19-50
+104            android:exported="true" />
+104-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:64:52-75
+105        <activity
+105-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:65:9-79
+106            android:name="com.example.myapplication.WebHollysActivity"
+106-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:65:19-52
+107            android:exported="true" />
+107-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:65:54-77
+108        <activity
+108-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:66:9-79
+109            android:name="com.example.myapplication.WebMamothActivity"
+109-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:66:19-52
+110            android:exported="true" />
+110-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:66:54-77
+111        <activity
+111-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:67:9-77
+112            android:name="com.example.myapplication.WebMegaActivity"
+112-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:67:19-50
+113            android:exported="true" />
+113-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:67:52-75
+114        <activity
+114-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:68:9-78
+115            android:name="com.example.myapplication.WebPascuActivity"
+115-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:68:19-51
+116            android:exported="true" />
+116-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:68:53-76
+117        <activity
+117-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:69:9-81
+118            android:name="com.example.myapplication.WebStabucksActivity"
+118-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:69:19-54
+119            android:exported="true" />
+119-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:69:56-79
+120        <activity
+120-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:70:9-80
+121            android:name="com.example.myapplication.WebTwosomeActivity"
+121-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:70:19-53
+122            android:exported="true" />
+122-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:70:55-78
+123
+124        <meta-data
+124-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:72:9-74:42
+125            android:name="com.naver.maps.map.CLIENT_ID"
+125-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:73:13-56
+126            android:value="navejkvdnc" />
+126-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:74:13-39
+127        <meta-data
+127-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:75:9-77:35
+128            android:name="com.naver.maps.map.CLIENT_TYPE"
+128-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:76:13-58
+129            android:value="gov" />
+129-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:77:13-32
+130        <meta-data
+130-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:79:9-81:57
+131            android:name="preloaded_fonts"
+131-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:80:13-43
+132            android:resource="@array/preloaded_fonts" />
+132-->/Users/onlyoneprivate/Downloads/team6_CoffeeCoc/app/src/main/AndroidManifest.xml:81:13-54
+133
+134        <!-- Needs to be explicitly declared on P+ -->
+135        <uses-library
+135-->[com.google.android.gms:play-services-maps:18.2.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/60d4cc0051c7306c0d35a7ca2f72833a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+136            android:name="org.apache.http.legacy"
+136-->[com.google.android.gms:play-services-maps:18.2.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/60d4cc0051c7306c0d35a7ca2f72833a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+137            android:required="false" />
+137-->[com.google.android.gms:play-services-maps:18.2.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/60d4cc0051c7306c0d35a7ca2f72833a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+138
+139        <activity
+139-->[com.naver.maps:map-sdk:3.14.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/07324a1311c7ddd73c847b1e0426d475/transformed/jetified-map-sdk-3.14.1/AndroidManifest.xml:21:9-25:51
+140            android:name="com.naver.maps.map.app.LegendActivity"
+140-->[com.naver.maps:map-sdk:3.14.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/07324a1311c7ddd73c847b1e0426d475/transformed/jetified-map-sdk-3.14.1/AndroidManifest.xml:22:13-65
+141            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+141-->[com.naver.maps:map-sdk:3.14.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/07324a1311c7ddd73c847b1e0426d475/transformed/jetified-map-sdk-3.14.1/AndroidManifest.xml:23:13-91
+142            android:label="@string/navermap_legend"
+142-->[com.naver.maps:map-sdk:3.14.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/07324a1311c7ddd73c847b1e0426d475/transformed/jetified-map-sdk-3.14.1/AndroidManifest.xml:24:13-52
+143            android:theme="@style/navermap_app" />
+143-->[com.naver.maps:map-sdk:3.14.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/07324a1311c7ddd73c847b1e0426d475/transformed/jetified-map-sdk-3.14.1/AndroidManifest.xml:25:13-48
+144        <activity
+144-->[com.naver.maps:map-sdk:3.14.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/07324a1311c7ddd73c847b1e0426d475/transformed/jetified-map-sdk-3.14.1/AndroidManifest.xml:26:9-30:51
+145            android:name="com.naver.maps.map.app.LegalNoticeActivity"
+145-->[com.naver.maps:map-sdk:3.14.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/07324a1311c7ddd73c847b1e0426d475/transformed/jetified-map-sdk-3.14.1/AndroidManifest.xml:27:13-70
+146            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+146-->[com.naver.maps:map-sdk:3.14.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/07324a1311c7ddd73c847b1e0426d475/transformed/jetified-map-sdk-3.14.1/AndroidManifest.xml:28:13-91
+147            android:label="@string/navermap_legal_notice"
+147-->[com.naver.maps:map-sdk:3.14.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/07324a1311c7ddd73c847b1e0426d475/transformed/jetified-map-sdk-3.14.1/AndroidManifest.xml:29:13-58
+148            android:theme="@style/navermap_app" />
+148-->[com.naver.maps:map-sdk:3.14.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/07324a1311c7ddd73c847b1e0426d475/transformed/jetified-map-sdk-3.14.1/AndroidManifest.xml:30:13-48
+149        <activity
+149-->[com.naver.maps:map-sdk:3.14.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/07324a1311c7ddd73c847b1e0426d475/transformed/jetified-map-sdk-3.14.1/AndroidManifest.xml:31:9-35:51
+150            android:name="com.naver.maps.map.app.OpenSourceLicenseActivity"
+150-->[com.naver.maps:map-sdk:3.14.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/07324a1311c7ddd73c847b1e0426d475/transformed/jetified-map-sdk-3.14.1/AndroidManifest.xml:32:13-76
+151            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+151-->[com.naver.maps:map-sdk:3.14.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/07324a1311c7ddd73c847b1e0426d475/transformed/jetified-map-sdk-3.14.1/AndroidManifest.xml:33:13-91
+152            android:label="@string/navermap_open_source_license"
+152-->[com.naver.maps:map-sdk:3.14.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/07324a1311c7ddd73c847b1e0426d475/transformed/jetified-map-sdk-3.14.1/AndroidManifest.xml:34:13-65
+153            android:theme="@style/navermap_app" />
+153-->[com.naver.maps:map-sdk:3.14.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/07324a1311c7ddd73c847b1e0426d475/transformed/jetified-map-sdk-3.14.1/AndroidManifest.xml:35:13-48
+154        <activity
+154-->[com.google.android.gms:play-services-base:18.0.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/9b838bd37706ed0fa2de4fec792d1011/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+155            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+155-->[com.google.android.gms:play-services-base:18.0.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/9b838bd37706ed0fa2de4fec792d1011/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+156            android:exported="false"
+156-->[com.google.android.gms:play-services-base:18.0.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/9b838bd37706ed0fa2de4fec792d1011/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+157            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+157-->[com.google.android.gms:play-services-base:18.0.1] /Users/onlyoneprivate/.gradle/caches/transforms-3/9b838bd37706ed0fa2de4fec792d1011/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+158
+159        <meta-data
+159-->[com.google.android.gms:play-services-basement:18.0.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/c9451a7a2f5842d8a7ba0c655630dfe4/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+160            android:name="com.google.android.gms.version"
+160-->[com.google.android.gms:play-services-basement:18.0.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/c9451a7a2f5842d8a7ba0c655630dfe4/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+161            android:value="@integer/google_play_services_version" />
+161-->[com.google.android.gms:play-services-basement:18.0.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/c9451a7a2f5842d8a7ba0c655630dfe4/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+162
+163        <activity
+163-->[androidx.compose.ui:ui-test-manifest:1.4.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/705b7fed6fc82c8f9f4960fae0be7c6b/transformed/jetified-ui-test-manifest-1.4.0/AndroidManifest.xml:23:9-25:39
+164            android:name="androidx.activity.ComponentActivity"
+164-->[androidx.compose.ui:ui-test-manifest:1.4.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/705b7fed6fc82c8f9f4960fae0be7c6b/transformed/jetified-ui-test-manifest-1.4.0/AndroidManifest.xml:24:13-63
+165            android:exported="true" />
+165-->[androidx.compose.ui:ui-test-manifest:1.4.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/705b7fed6fc82c8f9f4960fae0be7c6b/transformed/jetified-ui-test-manifest-1.4.0/AndroidManifest.xml:25:13-36
+166        <activity
+166-->[androidx.compose.ui:ui-tooling:1.4.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/f3e0b3dc6fe2de9a0d1b0dbb511b7235/transformed/jetified-ui-tooling-1.4.0/AndroidManifest.xml:23:9-25:39
+167            android:name="androidx.compose.ui.tooling.PreviewActivity"
+167-->[androidx.compose.ui:ui-tooling:1.4.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/f3e0b3dc6fe2de9a0d1b0dbb511b7235/transformed/jetified-ui-tooling-1.4.0/AndroidManifest.xml:24:13-71
+168            android:exported="true" />
+168-->[androidx.compose.ui:ui-tooling:1.4.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/f3e0b3dc6fe2de9a0d1b0dbb511b7235/transformed/jetified-ui-tooling-1.4.0/AndroidManifest.xml:25:13-36
+169
+170        <provider
+170-->[androidx.emoji2:emoji2:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/8e7c8172ceecf453db57d75a48206b0a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+171            android:name="androidx.startup.InitializationProvider"
+171-->[androidx.emoji2:emoji2:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/8e7c8172ceecf453db57d75a48206b0a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+172            android:authorities="com.example.myapplication.androidx-startup"
+172-->[androidx.emoji2:emoji2:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/8e7c8172ceecf453db57d75a48206b0a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+173            android:exported="false" >
+173-->[androidx.emoji2:emoji2:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/8e7c8172ceecf453db57d75a48206b0a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+174            <meta-data
+174-->[androidx.emoji2:emoji2:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/8e7c8172ceecf453db57d75a48206b0a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+175                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+175-->[androidx.emoji2:emoji2:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/8e7c8172ceecf453db57d75a48206b0a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+176                android:value="androidx.startup" />
+176-->[androidx.emoji2:emoji2:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/8e7c8172ceecf453db57d75a48206b0a/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+177            <meta-data
+177-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/onlyoneprivate/.gradle/caches/transforms-3/400e91d64f01f013bd4f931cf48fa9f5/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+178                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+178-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/onlyoneprivate/.gradle/caches/transforms-3/400e91d64f01f013bd4f931cf48fa9f5/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+179                android:value="androidx.startup" />
+179-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/onlyoneprivate/.gradle/caches/transforms-3/400e91d64f01f013bd4f931cf48fa9f5/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+180            <meta-data
+180-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/70204b3425fb011961c6f7089e506a4c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+181                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+181-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/70204b3425fb011961c6f7089e506a4c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+182                android:value="androidx.startup" />
+182-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/70204b3425fb011961c6f7089e506a4c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+183        </provider>
+184
+185        <receiver
+185-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/70204b3425fb011961c6f7089e506a4c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+186            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+186-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/70204b3425fb011961c6f7089e506a4c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+187            android:directBootAware="false"
+187-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/70204b3425fb011961c6f7089e506a4c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+188            android:enabled="true"
+188-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/70204b3425fb011961c6f7089e506a4c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+189            android:exported="true"
+189-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/70204b3425fb011961c6f7089e506a4c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+190            android:permission="android.permission.DUMP" >
+190-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/70204b3425fb011961c6f7089e506a4c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+191            <intent-filter>
+191-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/70204b3425fb011961c6f7089e506a4c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+192                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+192-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/70204b3425fb011961c6f7089e506a4c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+192-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/70204b3425fb011961c6f7089e506a4c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+193            </intent-filter>
+194            <intent-filter>
+194-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/70204b3425fb011961c6f7089e506a4c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+195                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+195-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/70204b3425fb011961c6f7089e506a4c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+195-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/70204b3425fb011961c6f7089e506a4c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+196            </intent-filter>
+197            <intent-filter>
+197-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/70204b3425fb011961c6f7089e506a4c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+198                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+198-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/70204b3425fb011961c6f7089e506a4c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+198-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/70204b3425fb011961c6f7089e506a4c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+199            </intent-filter>
+200            <intent-filter>
+200-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/70204b3425fb011961c6f7089e506a4c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+201                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+201-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/70204b3425fb011961c6f7089e506a4c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+201-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/onlyoneprivate/.gradle/caches/transforms-3/70204b3425fb011961c6f7089e506a4c/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+202            </intent-filter>
+203        </receiver>
+204    </application>
+205
+206</manifest>

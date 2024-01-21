@@ -1,0 +1,270 @@
+[
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_hollys.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/hollys.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/layout_ade.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/layout/ade.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_bottom_menu.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/bottom_menu.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_bg_custom_button_2.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/bg_custom_button_2.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_button_round.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/button_round.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/layout_noncoffee.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/layout/noncoffee.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/layout_activity_map_1.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/layout/activity_map_1.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_gate.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/gate.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_img_10.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/img_10.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/font_inter_bold.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/font/inter_bold.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/layout_web_menu1.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/layout/web_menu1.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_menu_icon.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/menu_icon.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_marker_starbucks.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/marker_starbucks.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_logo.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/logo.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_mmth.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/mmth.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_marker_pascucci.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/marker_pascucci.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_icon_menu.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/icon_menu.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_bottom_map.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/bottom_map.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_search.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/search.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_starbucks.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/starbucks.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/layout_all_menu.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/layout/all_menu.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_coffee.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/coffee.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/font_aclonica.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/font/aclonica.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_marker_mmth.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/marker_mmth.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_compose.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/compose.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_marker_gate.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/marker_gate.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/layout_decaf.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/layout/decaf.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_button_radius.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/button_radius.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_marker_ediya.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/marker_ediya.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_ediya.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/ediya.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_marker_twosome.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/marker_twosome.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_marker_mega.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/marker_mega.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/layout_activity_main.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_menu3.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/menu3.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/xml_backup_rules.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/font_bmhanna_11yrs_otf.otf.flat",
+        "source": "com.example.myapplication.app-main-59:/font/bmhanna_11yrs_otf.otf"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_mega.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/mega.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_bottom_nav.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/bottom_nav.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_pascucci.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/pascucci.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_bg_custom_button.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/bg_custom_button.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_bottom_like.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/bottom_like.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_twosome.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/twosome.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/layout_frappe.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/layout/frappe.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/layout_tea.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/layout/tea.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_marker_compose.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/marker_compose.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/layout_activity_splash.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.myapplication.app-main-59:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/layout_coffee.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/layout/coffee.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_img_11.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/img_11.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_img_9.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/img_9.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_menu2.png.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/menu2.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_coffee_1.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/coffee_1.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_marker_hollys.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/marker_hollys.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-57:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.myapplication.app-main-59:/drawable/ic_launcher_foreground.xml"
+    }
+]
